@@ -15,6 +15,14 @@ export const EXPERIENCES = [
     description: `Participé en el desarrollo de aplicaciones web utilizando tecnologías como React y Django, integrando bases de datos como MySQL. Aprendí sobre la creación de APIs RESTful y el desarrollo full stack.`,
     technologies: ["Javascript", "React.js", "Django", "MySQL", "PostgreSQL"],
   },
+  {
+    year: "2024",
+    role: "Estudiante de Desarrollo Backend",
+    company: "Alura Latam - Proyecto Oracle ONE",
+    description: `Participo en el bootcamp de desarrollo backend, enfocándome en Java y Spring Boot. Aprendo sobre el desarrollo de aplicaciones robustas y escalables, así como la creación de APIs RESTful con estas tecnologías.`,
+    technologies: ["Java", "Spring Boot", "RESTful APIs", "SQL"],
+  },
+  // ... otros elementos del array EXPERIENCES si los hay
 ];
 
 export const PROJECTS = [
