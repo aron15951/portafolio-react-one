@@ -37,13 +37,21 @@ const Projects = () => {
             >
               <h6 className='mb-2 font-semibold'>{project.title}</h6>
               <p className='mb-4 text-neutral-400'>{project.description}</p>
-              <div>
+              <div className='mb-4'>
                 {project.technologies.map((tech, index) => (
-                  <span className='mr-2 rounded bg-neutral-900 px-2 py-1 text-xs font-medium text-purple-700'>
+                  <span key={index} className='mr-2 rounded bg-neutral-900 px-2 py-1 text-xs font-medium text-purple-700'>
                     {tech}
                   </span>
                 ))}
               </div>
+              <a
+                href={project.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className='inline-block rounded bg-purple-700 px-4 py-2 text-sm font-medium text-white hover:bg-purple-600 transition-colors'
+              >
+                Ver projecto
+              </a>
             </motion.div>
           </div>
         ))}

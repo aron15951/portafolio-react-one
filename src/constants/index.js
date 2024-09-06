@@ -26,22 +26,39 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
-  
+  {
+    title: "Portafolio Simple Alura",
+    image: project1,
+    description:
+      "Un portafolio personal simple y elegante creado como parte del curso de Alura Latam.",
+    technologies: ["HTML", "CSS"],
+    url: "https://aron15951.github.io/portafolio-alura/",
+  },
   {
     title: "Aplicación de Gestión de Tareas",
     image: project2,
     description:
       "Una aplicación para gestionar tareas y proyectos, con funciones como creación de tareas y seguimiento de progreso.",
-    technologies: ["HTML", "CSS", "React", "Firebase"],
+      technologies: ["HTML", "CSS", "React", "Firebase"],
+    
+    url: "https://codigo-18-frontend-eight.vercel.app/",
+  },
+  {
+    title: "Encriptador de Textos - Alura",
+    image: project3,
+    description:
+      "Una aplicación web que permite encriptar y desencriptar textos, desarrollada como desafío del programa Oracle ONE.",
+    technologies: ["HTML", "CSS", "JavaScript"],
+    url: "https://aron15951.github.io/Reto-alura-encriptador-/",
   },
   {
     title: "Sitio Web de Portafolio",
-    image: project3,
+    image: project4,
     description:
       "Un sitio web de portafolio personal que muestra proyectos y habilidades.",
     technologies: ["HTML", "CSS", "React", "Tailwind"],
+    url: "https://portafolio-react-one-phi.vercel.app/",
   },
-  
 ];
 
 export const CONTACT = {
